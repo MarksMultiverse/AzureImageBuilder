@@ -70,7 +70,7 @@
 						"name": "GetArchive",
 						"inline": [
 						  "c:\\temp\\azcopy.exe copy '<Shared Access Signature to archive file>' c:\\temp\\software.zip",
-						  "Expand-Archive 'c:\\temp\\software.zip' c:\\temp"
+						  "Expand-Archive 'c:\\temp\\software.zip' 'c:\\temp'"
 						]
 					  },
 					{
